@@ -17,7 +17,7 @@ def weather_by_city(country, city):
     url = "https://api.openweathermap.org/data/2.5/weather"
     params = dict(
         q=city + "," + country,
-	units='metric',
+	    units='metric',
         appid= API_KEY,
     ) 
 

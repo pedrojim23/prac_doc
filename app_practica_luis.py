@@ -17,7 +17,7 @@ def holadocker():
     return 'HOLA DOCKER'
 
 @app.route('/holaluis/')
-def holadocker():
+def holaluis():
     return 'HOLA LUIS!!!'
 
 if __name__ == '__main__':

@@ -23,3 +23,7 @@ paso 2: habilitar el venv (checa la ruta de tu directorio)
 
     Aqui estas aislando tu app python en un ambiente virtual, vamos a instalar las sigueinte librerias flask y request:
     pip install flask requests​
+
+una vez hecho esto puedes probar en tu ambiente que se ejecute tu app:
+
+python app.py

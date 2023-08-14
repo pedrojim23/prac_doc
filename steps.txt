@@ -1,0 +1,11 @@
+primero deshabilita la restriccion para correr scripts en tu windows:
+
+accesas a PS en modo administrador:
+
+buscan la app powershell clisk derecho run as administrator
+
+Get-ExecutionPolicy
+Set-ExecutionPolicy Unrestricted
+
+para volverla a dejar como estaba
+Set-ExecutionPolicy Restricted

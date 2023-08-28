@@ -6,7 +6,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'App Funcionando!'
+    return 'Practica1- APIrequest!'
+
+@app.route('/holamundo/')
+def holamundo():
+    return 'Hola mundo'
 
 
 if __name__ == '__main__':

@@ -12,6 +12,9 @@ def index():
 def holamundo():
     return 'Hola mundo'
 
+@app.route('/pruebadocker/')
+def holadocker():
+    return 'Hola docker'
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)

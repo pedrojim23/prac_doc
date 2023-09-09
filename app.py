@@ -5,7 +5,7 @@ import json
 app = Flask(__name__)
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 
-API_KEY = "c4e0c00323814af9a3307fb398ebae43"
+API_KEY = "83a93ec7383bfe722f04e6a6c9c1e128"
 
 @app.route('/')
 def index():
@@ -17,7 +17,7 @@ def weather_by_city(country, city):
     url = "https://api.openweathermap.org/data/2.5/weather"
     params = dict(
         q=city + "," + country,
-	units='metric',
+	    units='metric',
         appid= API_KEY,
     ) 
 
